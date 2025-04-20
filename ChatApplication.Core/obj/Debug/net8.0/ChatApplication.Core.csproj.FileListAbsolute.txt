@@ -1,0 +1,12 @@
+D:\programming\Backend\SignalR\ChatApp\ChatApplication.Core\bin\Debug\net8.0\ChatApplication.Core.deps.json
+D:\programming\Backend\SignalR\ChatApp\ChatApplication.Core\bin\Debug\net8.0\ChatApplication.Core.dll
+D:\programming\Backend\SignalR\ChatApp\ChatApplication.Core\bin\Debug\net8.0\ChatApplication.Core.pdb
+D:\programming\Backend\SignalR\ChatApp\ChatApplication.Core\obj\Debug\net8.0\ChatApplication.Core.csproj.AssemblyReference.cache
+D:\programming\Backend\SignalR\ChatApp\ChatApplication.Core\obj\Debug\net8.0\ChatApplication.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\programming\Backend\SignalR\ChatApp\ChatApplication.Core\obj\Debug\net8.0\ChatApplication.Core.AssemblyInfoInputs.cache
+D:\programming\Backend\SignalR\ChatApp\ChatApplication.Core\obj\Debug\net8.0\ChatApplication.Core.AssemblyInfo.cs
+D:\programming\Backend\SignalR\ChatApp\ChatApplication.Core\obj\Debug\net8.0\ChatApplication.Core.csproj.CoreCompileInputs.cache
+D:\programming\Backend\SignalR\ChatApp\ChatApplication.Core\obj\Debug\net8.0\ChatApplication.Core.dll
+D:\programming\Backend\SignalR\ChatApp\ChatApplication.Core\obj\Debug\net8.0\refint\ChatApplication.Core.dll
+D:\programming\Backend\SignalR\ChatApp\ChatApplication.Core\obj\Debug\net8.0\ChatApplication.Core.pdb
+D:\programming\Backend\SignalR\ChatApp\ChatApplication.Core\obj\Debug\net8.0\ref\ChatApplication.Core.dll

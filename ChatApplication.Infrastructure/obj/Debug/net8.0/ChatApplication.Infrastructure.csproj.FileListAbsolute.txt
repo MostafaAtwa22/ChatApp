@@ -1,0 +1,15 @@
+D:\programming\Backend\SignalR\ChatApp\ChatApplication.Infrastructure\bin\Debug\net8.0\ChatApplication.Infrastructure.deps.json
+D:\programming\Backend\SignalR\ChatApp\ChatApplication.Infrastructure\bin\Debug\net8.0\ChatApplication.Infrastructure.dll
+D:\programming\Backend\SignalR\ChatApp\ChatApplication.Infrastructure\bin\Debug\net8.0\ChatApplication.Infrastructure.pdb
+D:\programming\Backend\SignalR\ChatApp\ChatApplication.Infrastructure\bin\Debug\net8.0\ChatApplication.Core.dll
+D:\programming\Backend\SignalR\ChatApp\ChatApplication.Infrastructure\bin\Debug\net8.0\ChatApplication.Core.pdb
+D:\programming\Backend\SignalR\ChatApp\ChatApplication.Infrastructure\obj\Debug\net8.0\ChatApplication.Infrastructure.csproj.AssemblyReference.cache
+D:\programming\Backend\SignalR\ChatApp\ChatApplication.Infrastructure\obj\Debug\net8.0\ChatApplication.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\programming\Backend\SignalR\ChatApp\ChatApplication.Infrastructure\obj\Debug\net8.0\ChatApplication.Infrastructure.AssemblyInfoInputs.cache
+D:\programming\Backend\SignalR\ChatApp\ChatApplication.Infrastructure\obj\Debug\net8.0\ChatApplication.Infrastructure.AssemblyInfo.cs
+D:\programming\Backend\SignalR\ChatApp\ChatApplication.Infrastructure\obj\Debug\net8.0\ChatApplication.Infrastructure.csproj.CoreCompileInputs.cache
+D:\programming\Backend\SignalR\ChatApp\ChatApplication.Infrastructure\obj\Debug\net8.0\ChatAppl.75ADB9DD.Up2Date
+D:\programming\Backend\SignalR\ChatApp\ChatApplication.Infrastructure\obj\Debug\net8.0\ChatApplication.Infrastructure.dll
+D:\programming\Backend\SignalR\ChatApp\ChatApplication.Infrastructure\obj\Debug\net8.0\refint\ChatApplication.Infrastructure.dll
+D:\programming\Backend\SignalR\ChatApp\ChatApplication.Infrastructure\obj\Debug\net8.0\ChatApplication.Infrastructure.pdb
+D:\programming\Backend\SignalR\ChatApp\ChatApplication.Infrastructure\obj\Debug\net8.0\ref\ChatApplication.Infrastructure.dll
