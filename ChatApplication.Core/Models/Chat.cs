@@ -6,7 +6,9 @@ namespace ChatApplication.Core.Models
 {
     public class Chat : BaseEntity, ISoftDeleteable
     {
-        public ICollection<Message> Message { get; set; } = new List<Message>();
+        public string Name { get; set; } = string.Empty;
+
+        public ICollection<Message> Messages { get; set; } = new List<Message>();
 
         public ICollection<ApplicationUser> ApplicationUsers { get; set; } = new List<ApplicationUser>();
 

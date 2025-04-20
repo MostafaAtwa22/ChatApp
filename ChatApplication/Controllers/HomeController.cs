@@ -1,4 +1,7 @@
 using System.Diagnostics;
+using ChatApplication.Core.Models;
+using ChatApplication.Core.Models.Enums;
+using ChatApplication.Infrastructure;
 using ChatApplication.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -6,11 +9,11 @@ namespace ChatApplication.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ApplicationDbContext _context;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ApplicationDbContext context)
         {
-            _logger = logger;
+            _context = context;
         }
 
         public IActionResult Index()
@@ -18,15 +21,24 @@ namespace ChatApplication.Controllers
             return View();
         }
 
+        [HttpPost]
+        public async Task<IActionResult> CreateRoom(string name)
+        {
+            await _context.Chats.AddAsync(new Chat
+            {
+                Name = name,
+                ChatType = ChatType.ROOM
+            });
+
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+        }
         public IActionResult Privacy()
         {
             return View();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
+
     }
 }

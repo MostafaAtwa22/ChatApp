@@ -1,7 +1,47 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\programming\\Backend\\SignalR\\ChatApp\\ChatApplication\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{974ED0D5-7035-4F8F-BF3F-2960AA0C9857}|ChatApplication.MVC.csproj|d:\\programming\\backend\\signalr\\chatapp\\chatapplication\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{974ED0D5-7035-4F8F-BF3F-2960AA0C9857}|ChatApplication.MVC.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{974ED0D5-7035-4F8F-BF3F-2960AA0C9857}|ChatApplication.MVC.csproj|d:\\programming\\backend\\signalr\\chatapp\\chatapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{974ED0D5-7035-4F8F-BF3F-2960AA0C9857}|ChatApplication.MVC.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{974ED0D5-7035-4F8F-BF3F-2960AA0C9857}|ChatApplication.MVC.csproj|d:\\programming\\backend\\signalr\\chatapp\\chatapplication\\viewcomponents\\chatviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{974ED0D5-7035-4F8F-BF3F-2960AA0C9857}|ChatApplication.MVC.csproj|solutionrelative:viewcomponents\\chatviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{974ED0D5-7035-4F8F-BF3F-2960AA0C9857}|ChatApplication.MVC.csproj|d:\\programming\\backend\\signalr\\chatapp\\chatapplication\\views\\shared\\components\\room\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{974ED0D5-7035-4F8F-BF3F-2960AA0C9857}|ChatApplication.MVC.csproj|solutionrelative:views\\shared\\components\\room\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{974ED0D5-7035-4F8F-BF3F-2960AA0C9857}|ChatApplication.MVC.csproj|d:\\programming\\backend\\signalr\\chatapp\\chatapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{974ED0D5-7035-4F8F-BF3F-2960AA0C9857}|ChatApplication.MVC.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{974ED0D5-7035-4F8F-BF3F-2960AA0C9857}|ChatApplication.MVC.csproj|d:\\programming\\backend\\signalr\\chatapp\\chatapplication\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{974ED0D5-7035-4F8F-BF3F-2960AA0C9857}|ChatApplication.MVC.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{974ED0D5-7035-4F8F-BF3F-2960AA0C9857}|ChatApplication.MVC.csproj|d:\\programming\\backend\\signalr\\chatapp\\chatapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{974ED0D5-7035-4F8F-BF3F-2960AA0C9857}|ChatApplication.MVC.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{974ED0D5-7035-4F8F-BF3F-2960AA0C9857}|ChatApplication.MVC.csproj|d:\\programming\\backend\\signalr\\chatapp\\chatapplication\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{974ED0D5-7035-4F8F-BF3F-2960AA0C9857}|ChatApplication.MVC.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{974ED0D5-7035-4F8F-BF3F-2960AA0C9857}|ChatApplication.MVC.csproj|d:\\programming\\backend\\signalr\\chatapp\\chatapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{974ED0D5-7035-4F8F-BF3F-2960AA0C9857}|ChatApplication.MVC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEF1AA13-0519-4BD0-9933-1D73A222F9A2}|..\\ChatApplication.Infrastructure\\ChatApplication.Infrastructure.csproj|d:\\programming\\backend\\signalr\\chatapp\\chatapplication.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +49,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,6 +74,136 @@
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\programming\\Backend\\SignalR\\ChatApp\\ChatApplication\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\programming\\Backend\\SignalR\\ChatApp\\ChatApplication\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-20T19:42:15.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\programming\\Backend\\SignalR\\ChatApp\\ChatApplication\\Views\\Shared\\Components\\Room\\Default.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Components\\Room\\Default.cshtml",
+              "ToolTip": "D:\\programming\\Backend\\SignalR\\ChatApp\\ChatApplication\\Views\\Shared\\Components\\Room\\Default.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Components\\Room\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-20T19:41:02.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\programming\\Backend\\SignalR\\ChatApp\\ChatApplication\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\programming\\Backend\\SignalR\\ChatApp\\ChatApplication\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-20T19:37:01.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\programming\\Backend\\SignalR\\ChatApp\\ChatApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\programming\\Backend\\SignalR\\ChatApp\\ChatApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwDEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-20T18:59:01.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChatViewComponent.cs",
+              "DocumentMoniker": "D:\\programming\\Backend\\SignalR\\ChatApp\\ChatApplication\\ViewComponents\\ChatViewComponent.cs",
+              "RelativeDocumentMoniker": "ViewComponents\\ChatViewComponent.cs",
+              "ToolTip": "D:\\programming\\Backend\\SignalR\\ChatApp\\ChatApplication\\ViewComponents\\ChatViewComponent.cs",
+              "RelativeToolTip": "ViewComponents\\ChatViewComponent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T19:25:01.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\programming\\Backend\\SignalR\\ChatApp\\ChatApplication\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\programming\\Backend\\SignalR\\ChatApp\\ChatApplication\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-20T19:41:24.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\programming\\Backend\\SignalR\\ChatApp\\ChatApplication\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\programming\\Backend\\SignalR\\ChatApp\\ChatApplication\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T19:13:42.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\programming\\Backend\\SignalR\\ChatApp\\ChatApplication\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "D:\\programming\\Backend\\SignalR\\ChatApp\\ChatApplication\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-20T19:03:50.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\programming\\Backend\\SignalR\\ChatApp\\ChatApplication\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\programming\\Backend\\SignalR\\ChatApp\\ChatApplication\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T18:51:29.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\programming\\Backend\\SignalR\\ChatApp\\ChatApplication.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "..\\ChatApplication.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\programming\\Backend\\SignalR\\ChatApp\\ChatApplication.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "..\\ChatApplication.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T18:50:49.71Z",
+              "EditorCaption": ""
             }
           ]
         },

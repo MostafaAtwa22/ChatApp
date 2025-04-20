@@ -13,3 +13,4 @@ D:\programming\Backend\SignalR\ChatApp\ChatApplication.Infrastructure\obj\Debug\
 D:\programming\Backend\SignalR\ChatApp\ChatApplication.Infrastructure\obj\Debug\net8.0\refint\ChatApplication.Infrastructure.dll
 D:\programming\Backend\SignalR\ChatApp\ChatApplication.Infrastructure\obj\Debug\net8.0\ChatApplication.Infrastructure.pdb
 D:\programming\Backend\SignalR\ChatApp\ChatApplication.Infrastructure\obj\Debug\net8.0\ref\ChatApplication.Infrastructure.dll
+D:\programming\Backend\SignalR\ChatApp\ChatApplication.Infrastructure\obj\Debug\net8.0\ChatApplication.Infrastructure.sourcelink.json

@@ -154,3 +154,4 @@ D:\programming\Backend\SignalR\ChatApp\ChatApplication\obj\Debug\net8.0\refint\C
 D:\programming\Backend\SignalR\ChatApp\ChatApplication\obj\Debug\net8.0\ChatApplication.MVC.pdb
 D:\programming\Backend\SignalR\ChatApp\ChatApplication\obj\Debug\net8.0\ChatApplication.MVC.genruntimeconfig.cache
 D:\programming\Backend\SignalR\ChatApp\ChatApplication\obj\Debug\net8.0\ref\ChatApplication.MVC.dll
+D:\programming\Backend\SignalR\ChatApp\ChatApplication\obj\Debug\net8.0\ChatApplication.MVC.sourcelink.json
