@@ -1,9 +1,8 @@
-using System.Diagnostics;
 using ChatApplication.Core.Models;
 using ChatApplication.Core.Models.Enums;
 using ChatApplication.Infrastructure;
-using ChatApplication.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace ChatApplication.Controllers
 {
@@ -34,11 +33,32 @@ namespace ChatApplication.Controllers
 
             return RedirectToAction(nameof(Index));
         }
-        public IActionResult Privacy()
+
+        [HttpPost]
+        public async Task<IActionResult> CreateMessage(int chatId, string message)
         {
-            return View();
+            var msg = new Message
+            {
+                ChatId = chatId,
+                Text = message,
+                Name = "Default",
+                TimeStamp = DateTime.UtcNow
+            };
+
+            await _context.Messages.AddAsync(msg);
+
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Chat), new {id = chatId});
         }
 
-
+        [HttpGet("{id}")]
+        public async Task<IActionResult> Chat(int id)
+        {
+            var chat = await _context.Chats
+                .Include(c => c.Messages)
+                .FirstOrDefaultAsync(c => c.Id == id); 
+            return View(chat);
+        }
     }
 }

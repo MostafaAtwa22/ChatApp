@@ -13,6 +13,10 @@ namespace ChatApplication.Core.Models
 
         public DateTime TimeStamp { get; set; }
 
+        public int ChatId { get; set; }
+
+        public virtual Chat Chat { get; set; } = default!;
+
         public bool IsDeleted { get; set; }
 
         public DateTime? DateOFDelete { get; set; }

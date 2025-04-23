@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ChatApplication.MVC.ViewComponents
 {
-    public class ChatViewComponent : ViewComponent
+    public class RoomViewComponent : ViewComponent
     {
         private readonly ApplicationDbContext _context;
 
-        public ChatViewComponent(ApplicationDbContext context)
+        public RoomViewComponent(ApplicationDbContext context)
         {
             _context = context;
         }
