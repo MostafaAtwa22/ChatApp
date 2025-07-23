@@ -19,7 +19,7 @@ namespace ChatApp.ViewComponents
             var userId = HttpContext.User?.FindFirst(ClaimTypes.NameIdentifier)?.Value;
             var chats = _context.ChatUsers
                 .Include(cu => cu.Chat)
-                .Where(c => c.UserId == userId)
+                .Where(c => c.UserId == userId && c.Chat.chatType == Enums.ChatType.Group)
                 .Select(cu => cu.Chat)
                 .ToList();
             return View(chats);

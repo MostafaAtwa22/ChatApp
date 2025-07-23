@@ -1,0 +1,32 @@
+﻿@model IEnumerable<User>
+
+<div class="container mt-4">
+    <h3 class="mb-4">Start a Private Chat</h3>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+        @foreach (var user in Model)
+        {
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0 user-card text-center p-3">
+                    <a asp-action="CreatePrivateChat" asp-route-userId="@user.Id" class="text-decoration-none text-dark">
+                        <h5 class="card-title">@user.UserName</h5>
+                    </a>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<style>
+    .user-card {
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+        border-radius: 10px;
+        background-color: #f8f9fa;
+    }
+
+    .user-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        background-color: #ffffff;
+    }
+
+</style>

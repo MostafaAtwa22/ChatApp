@@ -1,4 +1,5 @@
 using ChatApp.Data;
+using ChatApp.Hubs;
 using ChatApp.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -19,11 +20,12 @@ namespace ChatApp
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
-            // Add services to the container.
-            builder.Services.AddControllersWithViews();
+            // Add SignalR
+            builder.Services.AddSignalR();
             var constr = builder.Configuration.GetConnectionString("Default")
                 ?? throw new InvalidOperationException("No Connection String");
 
+            builder.Services.AddSignalR();
             builder.Services.AddDbContext<AppDbContext>(option =>
             {
                 option.UseSqlServer(constr);
@@ -62,6 +64,9 @@ namespace ChatApp
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
+
+            // Map SignalR hub
+            app.MapHub<ChatHub>("/chatHub");
 
             app.Run();
         }

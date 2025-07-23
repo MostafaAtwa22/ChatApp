@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
+using System.Threading.Tasks;
 
 namespace ChatApp.Controllers
 {
@@ -26,6 +27,47 @@ namespace ChatApp.Controllers
                 .Where(c => !c.ChatUsers.Any(u => u.UserId == User.FindFirstValue(ClaimTypes.NameIdentifier)))
                 .ToListAsync();
             return View(chats);
+        }
+
+        public IActionResult Find()
+        {
+            var users = _context.Users
+                .Where(u => u.Id != User.FindFirstValue(ClaimTypes.NameIdentifier))
+                .ToList();
+            return View(users);
+        }
+
+
+        public IActionResult Private()
+        {
+            var users = _context.Chats
+                .Include(u => u.ChatUsers)
+                .ThenInclude(u => u.User)
+                .Where(u => u.chatType == ChatType.Private
+                && u.ChatUsers.Any(y => y.UserId == User.FindFirstValue(ClaimTypes.NameIdentifier)))
+                .ToList();
+
+            return View(users);
+        }
+
+        public async Task<IActionResult> CreatePrivateChat(string userId)
+        {
+            var chat = new Chat
+            {
+                chatType = ChatType.Private
+            };
+            chat.ChatUsers.Add(new ChatUser
+            {
+                UserId = userId
+            });
+            chat.ChatUsers.Add(new ChatUser
+            {
+                UserId = User.FindFirstValue(ClaimTypes.NameIdentifier)
+            });
+
+            _context.Chats.Add(chat);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Chat), new {id = chat.Id});
         }
 
         [HttpGet("{id}")]

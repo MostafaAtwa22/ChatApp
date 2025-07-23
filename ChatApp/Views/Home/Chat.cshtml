@@ -1,16 +1,26 @@
 ﻿@model Chat
 
 <div class="chat-body">
-    @foreach (var msg in Model.Messages)
-    {
-        <header>@msg.Name</header>
-        <p>@msg.Content</p>
-        <footer>@msg.Timestamp</footer>
+    @foreach(var message in Model.Messages){
+    <div class="message">
+        <header>@message.Name:</header>
+        <p>@message.Content</p>
+        <footer>@message.Timestamp</footer>
+    </div>
     }
 </div>
-
-<form class="chat-input" asp-action="CreateMessage">
-    <input type="hidden" value="@Model.Id" name="chatId"/>
-    <input type="text" name="message"/>
+<form class="chat-input" onsubmit="sendMessage(event)" asp-controller="Chats" asp-action="CreateMessage">
+    <input type="hidden" name="groupId" value="@Model.Id">
+    <input type="text" name="message" id="message-input">
     <button type="submit">Send</button>
 </form>
+
+@section scripts {
+<script src="~/js/signalr.min.js"></script>
+<script src="~/js/messageBuilder.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script>
+    window.chatId = '@Model.Id';
+</script>
+<script src="~/js/chat-signalr.js"></script>
+}
